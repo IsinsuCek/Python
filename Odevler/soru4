@@ -1,0 +1,9 @@
+def find_absent(list):
+    list.sort()
+
+    for i in range(list[0], list[-1]+1):
+        if i not in list:
+         return i
+
+my_list = [9,4,5,6,1,2]
+print("Eksik Sayılar:" ,find_absent(my_list))

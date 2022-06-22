@@ -22,5 +22,5 @@ def guess_computer(number):
             break
         elif selection == 'q':
             break
-guess_computer(12)
+guess_computer(42)
         

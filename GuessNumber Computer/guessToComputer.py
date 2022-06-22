@@ -1,7 +1,5 @@
 import random
 
-from soupsieve import select
-
 def guess_computer(number):
     first = 1
     last = 10
